@@ -1,0 +1,20 @@
+open src js runtime
+ses v8 js engine that chrome uses
+used for developing server-side & networking apps/apis
+takes js out of browser
+fast, scalable, popular in many areas of industry
+
+npm init --> create package.json file
+node filename.js 
+
+export const getPosts = () => {
+  return posts;
+};
+in import you must use {getPosts} from filename.js
+
+export default getPosts;
+no need to use curly braces
+
+npm install -D nodemon --> install nodemon with dev dependency
+
+npm install --> looks at package.json and install node modules on that machine
