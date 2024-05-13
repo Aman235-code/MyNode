@@ -18,3 +18,5 @@ no need to use curly braces
 npm install -D nodemon --> install nodemon with dev dependency
 
 npm install --> looks at package.json and install node modules on that machine
+
+use npm start
